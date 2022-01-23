@@ -10,7 +10,7 @@ body {
     color: black;
 }
 main {
-    background-color: #EFEFEF;
+    background-color: #fff;
 }
 
 .nav-section {
@@ -42,7 +42,6 @@ main {
     margin-right: 0;
 }
 
-/* Header-contacts-section */
 .header-contacts-section {
     border-bottom: 1px solid #eee;
     background-color: #fff;
@@ -77,9 +76,11 @@ main {
     padding: 10px 27px ;
     margin: 20px 0 20px 40px;
     float: right;
-    /* display: inline-block; */
-
+    cursor: pointer;
     }
+.button:hover {
+    background-color: #d63462 ;
+}
 .phone {
     text-decoration: none;
     font-family: Roboto;
@@ -109,8 +110,6 @@ ul.bottom-nav-list {
     line-height: 19px;
     color: #000000;
 }
-
-/* superchair-section */
 
 .superchair-section {
     padding: 160px 0;
@@ -303,6 +302,8 @@ ul.bottom-nav-list {
     color: #000000;
     margin-bottom: 30px;
     width: 110px;
+    display: inline-block;
+    text-decoration: none;
 }
 .footer_categories_list {
     width: 255px;
